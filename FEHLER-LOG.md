@@ -13,7 +13,11 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 | 5 | Tofu-Kästchen statt Schrift | Keine Noto-Fonts für nicht-lateinische Schrift | Lokale Noto-Fonts, jede Seite visuell prüfen |
 
 ### Neu in diesem Projekt
-(noch keine)
+**2026-10-05 – Seite „Datenschutzerklärung“ lief am Handy über den Rand**
+- Was: Beim Test mit 360 px Breite war die Seite breiter als der Bildschirm (Seitwärts-Scrollen).
+- Ursache: Die Überschrift war 1,9 rem groß, das lange Wort „Datenschutzerklärung“ passte nicht in die Zeile und wurde nicht umgebrochen.
+- Behebung: Überschriften etwas kleiner (1,7 rem) und mit Silbentrennung/Umbruch (`hyphens:auto`, `overflow-wrap`).
+- Lernpunkt: Lange deutsche Wörter in Überschriften immer bei 360 px testen. Der automatische Test prüft `scrollWidth > Breite` pro Seite.
 
 ## Entscheidungen
 ### 2026-10-05 – Kein Tailwind per CDN
@@ -42,6 +46,7 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
-- Impressum und Datenschutz (Entwurf, rechtlich prüfen lassen).
+- Impressum und Datenschutz sind Entwurf (AP5): Name, Anschrift, Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
+- WhatsApp-Nummer steht öffentlich im Code und im Link (mitmachen.html, impressum.html). André bestätigt, dass das gewollt ist; sonst Zweitnummer nutzen.
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
 - `schrifttest.html` und die ZIP-Datei im Root am Ende (AP6) entfernen.
