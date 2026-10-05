@@ -1,0 +1,4 @@
+.ld-liste{display:grid;grid-template-columns:1fr;gap:1rem;margin:0 0 1rem;padding:0;list-style:none}
+.ld-leer{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.5rem;padding:.75rem 1rem}
+.ld-link{display:inline-block;padding:.5rem 0}
+@media (min-width:40rem){.ld-liste{grid-template-columns:repeat(2,1fr)}}

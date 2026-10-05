@@ -1,0 +1,9 @@
+.st-button{display:inline-block;padding:.75rem 1.25rem;min-height:2.75rem;background:var(--wf-accent);color:#fff;font-weight:700;text-decoration:none;border-radius:.5rem}
+.st-button:hover{background:#7c2a0e}
+.st-cards{display:grid;grid-template-columns:1fr;gap:.75rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.st-card{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.75rem}
+.st-card-link{display:block;padding:1rem 1.25rem;color:var(--wf-text);text-decoration:none}
+.st-card-link:hover{background:var(--wf-accent-bg);border-radius:.75rem}
+.st-card-name{display:block;font-size:1.3rem;font-weight:700;color:var(--wf-accent)}
+.st-card-text{display:block;color:var(--wf-muted)}
+@media (min-width:40rem){.st-cards{grid-template-columns:repeat(3,1fr)}}
