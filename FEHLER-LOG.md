@@ -43,10 +43,15 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Länderseiten haben noch keine Hilfe-Anlaufstellen: Nur öffentliche, geprüfte Stellen, Liste kommt von André.
 - Eigene CSS-Dateien pro Seitentyp (`start.css`, `liste.css`, `land.css`) wegen Klassenkollisionen.
 
+### 2026-10-05 – WhatsApp-Nummer öffentlich
+- Die Nummer steht im Link auf `mitmachen.html` und `impressum.html` (öffentliches Repo, nicht mehr löschbar aus der Git-Historie).
+- Risiko: Spam und Anrufe. Alternative wäre eine Zweitnummer gewesen.
+- Entscheidung: André hat bestätigt, dass es seine Projekt-Nummer ist und öffentlich sein darf.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
 - Impressum und Datenschutz sind Entwurf (AP5): Name, Anschrift, Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
-- WhatsApp-Nummer steht öffentlich im Code und im Link (mitmachen.html, impressum.html). André bestätigt, dass das gewollt ist; sonst Zweitnummer nutzen.
+
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
 - `schrifttest.html` und die ZIP-Datei im Root am Ende (AP6) entfernen.
