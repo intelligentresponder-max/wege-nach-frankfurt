@@ -36,3 +36,17 @@ Betreuer: André, arbeitet in Termux auf Android. Antworten kurz, ohne Fachjargo
 - Neue Alternativen vorher auf Nutzen und Sicherheit prüfen, unter „Entscheidungen“ notieren.
 - Jede Seite mit Thai/Lao/Tigrinya visuell prüfen (Tofu-Kästchen). Mobile Breite 360 px.
 - Overlays hell genug, Kontrast am Handy prüfen.
+
+## Video-Einbettung (Klick-Einbettung, Präfix `vd-`)
+Dateien: `assets/css/video.css`, `assets/js/video.js`. Auf der Seite einbinden und dieses Markup nutzen
+(Pfad zur Datenschutzseite je nach Ordner `../datenschutz.html`; `data-video-id` = die 11 Zeichen der YouTube-ID):
+
+    <div class="vd-box" data-video-id="VIDEO_ID" data-titel="Titel der Geschichte">
+    <div class="vd-notice">
+    <p class="vd-title">Video von YouTube</p>
+    <p>Dieses Video liegt bei YouTube (Google). Erst wenn du auf „Video laden“ tippst, wird eine Verbindung zu YouTube hergestellt. YouTube kann dann Daten wie deine IP-Adresse verarbeiten. Vorher passiert nichts. Mehr dazu in der <a href="../datenschutz.html">Datenschutzerklärung</a>.</p>
+    <button type="button" class="vd-button" hidden>Video laden</button>
+    <p class="vd-fallback">Zum Laden des Videos wird JavaScript benötigt.</p>
+    </div></div>
+
+Regeln: keine Vorschaubilder von YouTube (wäre ein Fremdaufruf), nur `youtube-nocookie.com`, ungültige ID = Knopf bleibt versteckt.
