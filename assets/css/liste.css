@@ -1,0 +1,8 @@
+.ls-filter{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.5rem}
+.ls-filter-btn{font:inherit;min-height:2.75rem;padding:.35rem 1rem;border:2px solid var(--wf-line);border-radius:.5rem;background:var(--wf-card);color:var(--wf-text);cursor:pointer}
+.ls-filter-btn[aria-pressed="true"]{border-color:var(--wf-accent);background:var(--wf-accent-bg);font-weight:700}
+.ls-liste{display:grid;grid-template-columns:1fr;gap:1rem;margin:0 0 1rem;padding:0;list-style:none}
+.ls-item[hidden]{display:none}
+.ls-leer{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.5rem;padding:.75rem 1rem}
+.ls-leer[hidden]{display:none}
+@media (min-width:40rem){.ls-liste{grid-template-columns:repeat(2,1fr)}}

@@ -34,8 +34,14 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 ### 2026-10-05 – GitHub Pages
 - Pages braucht Einstellung in GitHub (Settings → Pages → Branch `main`, Ordner `/ (root)`). `.nojekyll` liegt im Repo.
 
+### 2026-10-05 – Leere Listen statt Beispiel-Geschichten (AP2)
+- Übersicht und Länderseiten zeigen ehrlich „noch keine Geschichte“. Keine Beispielpersonen. Der Filter (`assets/js/filter.js`) arbeitet mit `li.ls-item[data-land]`; sobald die erste Geschichte da ist, kommt sie dort hinein.
+- Länderseiten haben noch keine Hilfe-Anlaufstellen: Nur öffentliche, geprüfte Stellen, Liste kommt von André.
+- Eigene CSS-Dateien pro Seitentyp (`start.css`, `liste.css`, `land.css`) wegen Klassenkollisionen.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
 - Impressum und Datenschutz (Entwurf, rechtlich prüfen lassen).
+- Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
 - `schrifttest.html` und die ZIP-Datei im Root am Ende (AP6) entfernen.
