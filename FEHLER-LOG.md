@@ -19,6 +19,21 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Behebung: Überschriften etwas kleiner (1,7 rem) und mit Silbentrennung/Umbruch (`hyphens:auto`, `overflow-wrap`).
 - Lernpunkt: Lange deutsche Wörter in Überschriften immer bei 360 px testen. Der automatische Test prüft `scrollWidth > Breite` pro Seite.
 
+**2026-10-05 – AP6: Dead Link auf ueber.html**
+- Was: Der Menüpunkt „Über das Projekt“ stand auf allen Seiten, die Datei gab es nicht (404).
+- Ursache: Menü wurde in AP1 gebaut, die Seite war in keinem Arbeitspaket eingeplant.
+- Behebung: `ueber.html` gebaut, nur mit Aussagen aus dem Projektauftrag (keine erfundenen Angaben).
+- Lernpunkt: Nach jedem Paket alle internen Links mit einem Skript prüfen (Datei existiert?).
+
+**AP6-Testprotokoll (2026-10-05, Headless-Chromium, lokal im Unterordner /wege-nach-frankfurt/ serviert)**
+- Breiten 320, 360, 412 px: kein Seitwärts-Scrollen auf allen 9 Seiten.
+- Keine Anfragen an Fremdserver, keine 404 bei CSS/JS/Schriften, keine JS-Fehler.
+- Noto Thai, Lao, Ethiopic (400/700) laden; Tofu-Test auf der Testseite bei ti/th/lo bestanden.
+- Keine Inline-Styles, kein Tailwind/Google, kein Platzhaltertext.
+- Noch nicht möglich: Test der echten Live-Adresse (Sandbox ohne Zugriff) und echtes Handy. André prüft am Handy.
+- Bengali-Schrift ist eingebunden, wird aber nicht geladen (keine bn-Seite).
+- `schrifttest.html` und die ZIP-Datei sind entfernt.
+
 ## Entscheidungen
 ### 2026-10-05 – Kein Tailwind per CDN
 - Auftrag sah Tailwind-CDN vor.
@@ -54,4 +69,3 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Impressum und Datenschutz sind Entwurf (AP5): Name, Anschrift, Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
 
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
-- `schrifttest.html` und die ZIP-Datei im Root am Ende (AP6) entfernen.
