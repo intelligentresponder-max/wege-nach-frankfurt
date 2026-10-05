@@ -63,6 +63,12 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Risiko: Spam und Anrufe. Alternative wäre eine Zweitnummer gewesen.
 - Entscheidung: André hat bestätigt, dass es seine Projekt-Nummer ist und öffentlich sein darf.
 
+### 2026-10-05 – Klick-Einbettung ohne Vorschaubild (AP3 vorab)
+- Alternativen geprüft: (a) Direkt-iframe: lädt sofort bei Seitenaufruf, verletzt Regel 5. (b) YouTube-Vorschaubild (i.ytimg.com): Fremdaufruf vor dem Klick, verboten. (c) Fertige Bibliothek (lite-youtube-embed): zusätzliche Fremdcode-Abhängigkeit und lädt Vorschaubild. 
+- Entscheidung: Eigener kleiner Code (~25 Zeilen), Hinweiskarte, iframe erst nach Klick, `youtube-nocookie.com`, ID wird geprüft (nur 11 Zeichen A-Z a-z 0-9 _ -), `referrerpolicy` gesetzt (YouTube verlangt für Einbettungen einen Referrer).
+- Test (Headless-Chromium, 360 px): vor dem Klick 0 Fremdanfragen; nach dem Klick genau ein Aufruf an youtube-nocookie.com; ohne JavaScript erscheint der Hinweis statt Knopf, kein Fremdaufruf.
+- Nicht getestet: Abspielen selbst (Sandbox ohne Internet) und iPhone/Safari. Mit dem ersten echten Video am Handy prüfen.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
