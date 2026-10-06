@@ -34,6 +34,12 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Bengali-Schrift ist eingebunden, wird aber nicht geladen (keine bn-Seite).
 - `schrifttest.html` und die ZIP-Datei sind entfernt.
 
+**2026-10-05 – Seite nach dem ersten Merge nicht erreichbar (404)**
+- Was: Nach Pages-Aktivierung zeigte die Adresse „There isn't a GitHub Pages site here“.
+- Ursache: GitHub-Actions-Störung (Runner-Zuteilung verzögert, githubstatus.com, seit 19:11 UTC). Die Pages-Veröffentlichung läuft über Actions. Drei Läufe wurden durch schnell aufeinanderfolgende Merges abgebrochen, der vierte hing 30 Minuten in der Warteschlange und endete mit „failure“. Es wurde nie etwas veröffentlicht. Der Code war nicht schuld.
+- Behebung: Nach Ende der Störung neuen Lauf auslösen (Re-run oder neuer Merge auf `main`).
+- Lernpunkt: Bei 404 zuerst githubstatus.com und den Actions-Reiter prüfen (Status der Lauf-Einträge). Nicht mehrere PRs kurz hintereinander mergen, solange der Lauf davor nicht grün ist. Die Re-run-Funktion geht für Claude per API nicht (403), das muss André selbst anstoßen.
+
 ## Entscheidungen
 ### 2026-10-05 – Kein Tailwind per CDN
 - Auftrag sah Tailwind-CDN vor.
