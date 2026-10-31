@@ -58,9 +58,11 @@ Regeln: keine Vorschaubilder von YouTube (wäre ein Fremdaufruf), nur `youtube-n
 - Videos: Untertitel (Deutsch + Landessprache) und Text zum Nachlesen unter dem Video.
 - Externe Links: `target="_blank" rel="noopener noreferrer"`, im Text sagen „öffnet in neuem Tab“.
 - Tippflächen mindestens 44 px, Fokus sichtbar, Sprungmarke „Zum Inhalt“ bleibt.
-- Vor jeder Veröffentlichung: automatischer Test (axe-core, 360 px), Tastatur-Durchgang, Handy-Test. Ergebnis ins FEHLER-LOG.
+- Vor jeder Veröffentlichung: `node werkzeuge/pruefen/pruefen.js` (axe-core, Links, Überlauf, Fremdanfragen), Tastatur-Durchgang, Handy-Test. Ergebnis ins FEHLER-LOG.
 - Keine öffentlichen Kommentare, keine Formulare bei Fremdanbietern ohne Rücksprache.
 - Termine nur eintragen, wenn der Veranstalter sie nennt. Keine erfundenen Termine.
 
 ## Werkzeuge
 - `werkzeuge/ja2de/`: Japanisch (auch Thai, Lao) aus Audio/Video in Text und deutsche Untertitel umwandeln, lokal. Anleitung in der README dort und im Skill `ja2de`. Läuft nicht in Termux. Ergebnisse sind Rohentwürfe, Muttersprachler prüfen. Medien nie ins Repo (siehe `.gitignore`).
+- `werkzeuge/pruefen/`: Prüfwerkzeug (Node, Playwright, axe-core). Anleitung in der README dort. Läuft nicht in Termux.
+- Schriften: Noto Sans unter SIL Open Font License, Lizenztext in `assets/fonts/OFL.txt`. Beim Austausch einer Schrift mitpflegen.
