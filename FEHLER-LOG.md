@@ -84,9 +84,25 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Links veralten: Vor jeder Veröffentlichung neuer Inhalte kurz prüfen (200 und aktuelles Datum).
 - WebFetch-Werkzeug blieb gesperrt, obwohl Domains freigegeben waren; curl über den Proxy ging. Lernpunkt: erst `curl -I` versuchen.
 
+### 2026-10-31 – Verein wird Träger der Seite (Entscheidung André)
+- Impressum und Datenschutz verweisen jetzt auf den Verein. Der Verein ist noch nicht gegründet, deshalb sind Name, Anschrift, Vorstand und Registernummer „offen“.
+- Bis zur Eintragung braucht die öffentliche Seite eine verantwortliche Person mit Anschrift im Impressum (Pflicht besteht schon jetzt). Offener Punkt.
+- Auf Seiten steht kein „Verein XY“, solange es ihn nicht gibt (ueber.html bleibt unverändert).
+
+### 2026-10-31 – Neue Seiten Mitreden, Termine, Barrierefreiheit
+- Kein Formular bei Fremdanbietern, keine Kommentarfunktion, keine Umfrage-Tools: Kontakt nur über den WhatsApp-Link. Alternative (Formular-Dienst, Kommentare) wäre ein Fremdserver-Aufruf und braucht Moderation und Datenschutz-Konzept.
+- Termine: nur belegte Angaben des Quartiersmanagements (Stand 31.10.2026, frankfurt-sozialestadt.de/preungesheim). Keine eigenen oder erfundenen Termine. Bei Änderungen vor Ort veralten die Angaben, regelmäßig prüfen.
+- Navigation von 4 auf 6 Punkte erweitert (Start, Geschichten, Mitreden, Termine, Eigene Geschichte, Über uns). „Mitmachen“ heißt jetzt „Eigene Geschichte“, damit es nicht mit „Mitreden“ verwechselt wird. Die Fußzeile verlinkt Barrierefreiheit statt Mitmachen.
+- Nav/Footer in allen Seiten per Skript ersetzt, mit Prüfung auf genau einen Treffer je Datei (Lernpunkt aus BanglaHilfe, Fehler 1).
+
+### 2026-10-31 – Barrierefreiheits-Test AP „Mitreden/Termine/Barrierefreiheit“
+- axe-core, 12 Seiten, 360 px: 0 Verstöße. Breiten 320/360/412 px: kein Seitwärts-Scrollen. Keine Fremdanfragen, keine 404.
+- Nicht geprüft: Screenreader (TalkBack), Tastatur-Durchgang durch Menschen, 200 % Zoom auf echtem Gerät. Steht so auf der Seite „Barrierefreiheit“.
+- Lernpunkt: Ein lokaler Testserver läuft nicht ewig; vor dem Test `curl localhost:8123` prüfen.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
-- Impressum und Datenschutz sind Entwurf (AP5): Name, Anschrift, Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
+- Impressum und Datenschutz sind Entwurf (AP5): Verein gründen, dann Name, Anschrift, Vorstand, Registernummer eintragen; Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
 
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).

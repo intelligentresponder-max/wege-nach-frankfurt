@@ -1,0 +1,8 @@
+.tm-liste{display:grid;grid-template-columns:1fr;gap:1rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.tm-karte{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.75rem;padding:1rem 1.25rem;max-width:42rem}
+.tm-karte h3{font-size:1.15rem;margin:0 0 .5rem}
+.tm-daten{margin:0 0 .75rem}
+.tm-daten dt{font-weight:700;margin-top:.5rem}
+.tm-daten dd{margin:0}
+.tm-leer{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.5rem;padding:.75rem 1rem;max-width:42rem}
+.tm-stand{font-size:.9rem;color:var(--wf-muted)}

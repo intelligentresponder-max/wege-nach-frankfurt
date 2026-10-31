@@ -1,5 +1,6 @@
 # CLAUDE.md – Regeln für dieses Repo
 
+Träger: ein gemeinnütziger Verein für Nachbarschaftshilfe in Preungesheim (in Planung, noch nicht gegründet).
 Projekt: Mehrsprachige Story-Seite „Wege nach Frankfurt“ (Eritrea, Thailand, Laos).
 Live: https://intelligentresponder-max.github.io/wege-nach-frankfurt/ (GitHub Pages, Unterordner!)
 Betreuer: André, arbeitet in Termux auf Android. Antworten kurz, ohne Fachjargon.
@@ -13,7 +14,8 @@ Betreuer: André, arbeitet in Termux auf Android. Antworten kurz, ohne Fachjargo
   Pfade in CSS gelten relativ zur CSS-Datei.
 - `lang` setzen: de, ti, th, lo (bn nur falls nötig). Fremdsprachige Blöcke: `class="wf-l" lang="ti"`.
 - Klassenpräfix pro Seitentyp: `wf-` Basis (Header/Footer/Layout), `st-` Startseite, `ls-` Geschichten-Übersicht,
-  `sg-` Story-Seite, `ld-` Länderseiten, `mm-` Mitmachen, `rt-` Rechtstexte. Keine Klasse ohne Präfix.
+  `sg-` Story-Seite, `ld-` Länderseiten, `mm-` Mitmachen, `rt-` Rechtstexte,
+  `mr-` Mitreden, `tm-` Termine, `bf-` Barrierefreiheit, `vd-` Video. Keine Klasse ohne Präfix.
 - Ersetzungen per Skript nur mit genauen Treffern (Präfix-Bug, siehe FEHLER-LOG).
 
 ## Datenschutz (verbindlich)
@@ -50,3 +52,12 @@ Dateien: `assets/css/video.css`, `assets/js/video.js`. Auf der Seite einbinden u
     </div></div>
 
 Regeln: keine Vorschaubilder von YouTube (wäre ein Fremdaufruf), nur `youtube-nocookie.com`, ungültige ID = Knopf bleibt versteckt.
+
+## Barrierefreiheit (freiwillig nach WCAG 2.2, Stufe AA)
+- Jede Seite: Block „Kurz gesagt“ (`wf-hinweis`) in Einfacher Sprache, höchstens drei Sätze.
+- Videos: Untertitel (Deutsch + Landessprache) und Text zum Nachlesen unter dem Video.
+- Externe Links: `target="_blank" rel="noopener noreferrer"`, im Text sagen „öffnet in neuem Tab“.
+- Tippflächen mindestens 44 px, Fokus sichtbar, Sprungmarke „Zum Inhalt“ bleibt.
+- Vor jeder Veröffentlichung: automatischer Test (axe-core, 360 px), Tastatur-Durchgang, Handy-Test. Ergebnis ins FEHLER-LOG.
+- Keine öffentlichen Kommentare, keine Formulare bei Fremdanbietern ohne Rücksprache.
+- Termine nur eintragen, wenn der Veranstalter sie nennt. Keine erfundenen Termine.
