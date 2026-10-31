@@ -100,6 +100,14 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Nicht geprüft: Screenreader (TalkBack), Tastatur-Durchgang durch Menschen, 200 % Zoom auf echtem Gerät. Steht so auf der Seite „Barrierefreiheit“.
 - Lernpunkt: Ein lokaler Testserver läuft nicht ewig; vor dem Test `curl localhost:8123` prüfen.
 
+### 2026-10-31 – Werkzeug ja2de (Japanisch zu Deutsch)
+- Gebaut, weil André Aufnahmen auf Japanisch auswerten will. Nutzen: schneller Rohentwurf für Untertitel. Sicherheit: alles lokal, keine Daten an Online-Dienste.
+- Alternativen geprüft: (a) Online-Dienste (Google, DeepL, OpenAI-API): Daten verlassen das Gerät, bei Interviews nicht vertretbar. (b) Whisper „translate": kann nur nach Englisch, nicht nach Deutsch. (c) Nur Claude übersetzen lassen: beste Qualität, aber nicht wiederholbar ohne Sitzung. (d) opus-mt Japanisch-Englisch-Deutsch: freie Lizenz, aber zwei Schritte und schlechter. Entscheidung: Whisper large-v3 (MIT) für die Erkennung, NLLB-200 1.3B (CC-BY-NC) für die Übersetzung, beides als CTranslate2 ohne Grafikkarte.
+- Lizenz-Risiko: NLLB nur nicht-kommerziell. In der README und im Skill vermerkt.
+- Modelle (ca. 4,5 GB) liegen nicht im Repo, `setup.sh` lädt sie. Nach Ende der Sitzung sind sie weg und müssen neu geladen werden.
+- Test (57 s Ton, 4 Kerne): Erkennung large-v3 ca. 80 s (beim ersten Versuch 291 s, weil gleichzeitig ein zweiter Lauf lief), Übersetzung ca. 10 s. Qualität: Erkennung gut, Übersetzung mit Fehlern bei Alltagswörtern („Unterhose" zu „Hosen", „Reißverschluss" zu „Scheck").
+- Lernpunkt: Zeitmessungen nie mit einem zweiten laufenden Job vergleichen.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
