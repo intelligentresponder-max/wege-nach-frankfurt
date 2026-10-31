@@ -1,0 +1,12 @@
+# Medien und Arbeitsdateien nie ins öffentliche Repo
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+.venv/
+__pycache__/

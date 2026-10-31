@@ -61,3 +61,6 @@ Regeln: keine Vorschaubilder von YouTube (wäre ein Fremdaufruf), nur `youtube-n
 - Vor jeder Veröffentlichung: automatischer Test (axe-core, 360 px), Tastatur-Durchgang, Handy-Test. Ergebnis ins FEHLER-LOG.
 - Keine öffentlichen Kommentare, keine Formulare bei Fremdanbietern ohne Rücksprache.
 - Termine nur eintragen, wenn der Veranstalter sie nennt. Keine erfundenen Termine.
+
+## Werkzeuge
+- `werkzeuge/ja2de/`: Japanisch (auch Thai, Lao) aus Audio/Video in Text und deutsche Untertitel umwandeln, lokal. Anleitung in der README dort und im Skill `ja2de`. Läuft nicht in Termux. Ergebnisse sind Rohentwürfe, Muttersprachler prüfen. Medien nie ins Repo (siehe `.gitignore`).
