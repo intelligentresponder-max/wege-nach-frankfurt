@@ -108,9 +108,17 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Test (57 s Ton, 4 Kerne): Erkennung large-v3 ca. 80 s (beim ersten Versuch 291 s, weil gleichzeitig ein zweiter Lauf lief), Übersetzung ca. 10 s. Qualität: Erkennung gut, Übersetzung mit Fehlern bei Alltagswörtern („Unterhose" zu „Hosen", „Reißverschluss" zu „Scheck").
 - Lernpunkt: Zeitmessungen nie mit einem zweiten laufenden Job vergleichen.
 
+### 2026-10-31 – Prüfwerkzeug und Schrift-Lizenz ins Repo (Übergabe)
+- Was fehlte: Die Prüfskripte lagen nur in Claude-Sitzungen (nicht im Repo), die Schriften hatten keinen Lizenztext (SIL OFL verlangt, dass der Text mitgeliefert wird).
+- Behebung: `werkzeuge/pruefen/pruefen.js` (Textprüfung, Linkprüfung, Browser bei 320/360/412 px, axe-core, Fremdanfragen) und `assets/fonts/OFL.txt` (Copyright-Zeilen aus den Schriftdateien, Lizenztext von den Noto-Quellen).
+- Test: Lauf auf dem aktuellen Stand grün (12 Seiten). Negativtest mit einer Testseite (Inline-Style, toter Link, Fremdbild, zu breit) schlägt mit 8 Problemen und Exit-Code 1 fehl. Testseite wieder gelöscht.
+- Noch nicht im Repo: der Seitengenerator (Kopf, Menü, Fußzeile stehen in jeder Seite einzeln und werden per Skript mit genauer Trefferzahl geändert) und eine Lizenzdatei für den Code. Letzteres muss André entscheiden.
+- Lernpunkt: Alles, worauf die Qualität beruht, gehört ins Repo, nicht in eine Sitzung.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
+- Lizenz für den Code festlegen (André, ggf. Verein) und `LICENSE` anlegen.
 - Impressum und Datenschutz sind Entwurf (AP5): Verein gründen, dann Name, Anschrift, Vorstand, Registernummer eintragen; Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
 
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
