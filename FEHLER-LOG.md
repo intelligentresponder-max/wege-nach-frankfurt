@@ -75,6 +75,15 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Test (Headless-Chromium, 360 px): vor dem Klick 0 Fremdanfragen; nach dem Klick genau ein Aufruf an youtube-nocookie.com; ohne JavaScript erscheint der Hinweis statt Knopf, kein Fremdaufruf.
 - Nicht getestet: Abspielen selbst (Sandbox ohne Internet) und iPhone/Safari. Mit dem ersten echten Video am Handy prüfen.
 
+### 2026-10-31 – Nachrichten-Links auf der Geschichten-Seite
+- Auswahl nur mit Medien selbst, keine Regierungs-/Staatsseiten (André: weglassen; Eritrea-Regierungsseite ist Propaganda, für Geflüchtete heikel).
+- Geprüft (per curl über den Proxy, 2026-10-31): alle 6 Links antworten mit 200 und zeigen aktuelle Beiträge (BBC Tigrinya/Thai, hessenschau, tagesschau, Thai PBS, Laotian Times).
+- Nicht aufgenommen: Radio Erena (erena.org). Seite ist hinter Cloudflare-Bot-Schutz (403 für Skripte), 2024 Berichte über Geldnot, aktueller Betrieb nicht belegt. Mit Handy prüfen, dann ggf. nachtragen.
+- Radio Free Asia Lao: 2025 eingestellt, daher nicht verlinkt. Laos hat nur einen englischsprachigen Eintrag.
+- Alternativen: Direkt-Einbettung/RSS-Feeds würden beim Seitenaufruf Fremdserver kontaktieren, deshalb nur normale Links mit `rel="noopener noreferrer"`.
+- Links veralten: Vor jeder Veröffentlichung neuer Inhalte kurz prüfen (200 und aktuelles Datum).
+- WebFetch-Werkzeug blieb gesperrt, obwohl Domains freigegeben waren; curl über den Proxy ging. Lernpunkt: erst `curl -I` versuchen.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
