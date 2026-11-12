@@ -2,3 +2,8 @@
 .ld-leer{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.5rem;padding:.75rem 1rem}
 .ld-link{display:inline-block;padding:.5rem 0}
 @media (min-width:40rem){.ld-liste{grid-template-columns:repeat(2,1fr)}}
+.ld-item{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.75rem}
+.ld-item-link{display:block;padding:1rem 1.25rem;color:var(--wf-text);text-decoration:none;border-radius:.75rem}
+.ld-item-link:hover{background:var(--wf-accent-bg)}
+.ld-item-titel{display:block;font-size:1.2rem;font-weight:700;color:var(--wf-accent)}
+.ld-item-text{display:block;color:var(--wf-muted)}

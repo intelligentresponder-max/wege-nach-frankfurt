@@ -10,3 +10,8 @@
 .ls-news-liste{margin:0 0 1rem;padding-left:1.25rem;max-width:42rem}
 .ls-news-liste li{margin-bottom:.6rem}
 .ls-news-liste a{padding:.25rem 0}
+.ls-item{background:var(--wf-card);border:1px solid var(--wf-line);border-radius:.75rem}
+.ls-item-link{display:block;padding:1rem 1.25rem;color:var(--wf-text);text-decoration:none;border-radius:.75rem}
+.ls-item-link:hover{background:var(--wf-accent-bg)}
+.ls-item-titel{display:block;font-size:1.2rem;font-weight:700;color:var(--wf-accent)}
+.ls-item-land{display:block;color:var(--wf-muted)}

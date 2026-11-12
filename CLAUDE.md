@@ -52,6 +52,7 @@ Dateien: `assets/css/video.css`, `assets/js/video.js`. Auf der Seite einbinden u
     </div></div>
 
 Regeln: keine Vorschaubilder von YouTube (wäre ein Fremdaufruf), nur `youtube-nocookie.com`, ungültige ID = Knopf bleibt versteckt.
+YouTube Shorts (Hochformat): am `vd-box` zusätzlich `data-format="hoch"` setzen, dann 9:16 statt 16:9. Die ID steht in `youtube.com/shorts/<ID>`.
 
 ## Barrierefreiheit (freiwillig nach WCAG 2.2, Stufe AA)
 - Jede Seite: Block „Kurz gesagt“ (`wf-hinweis`) in Einfacher Sprache, höchstens drei Sätze.
