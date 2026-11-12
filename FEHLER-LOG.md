@@ -131,6 +131,12 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Test: `pruefen.js` grün (13 Seiten, 0 Probleme, 0 Fremdanfragen vor dem Klick). Nach dem Klick ein Aufruf von youtube-nocookie.com, Verhältnis 9:16, kein Überlauf.
 - Nicht geprüft: Abspielen im echten Handybrowser, TalkBack.
 
+### 2026-11-12 – Zweite Story-Seite „Frankfurt-Spaziergang mit Johanna“ (Laos)
+- Gleiche Vorlage wie „Bei Moni zuhause“ (YouTube Short, Hochformat). Titel von André, mit Bindestrich geschrieben.
+- Einwilligung: André bestätigt „gleiche Person“ (Moni). **Offen:** In dem Titel kommt eine zweite Person vor (Johanna). Wenn Johanna im Video zu sehen oder zu hören ist, braucht auch sie eine schriftliche, widerrufbare Einwilligung, bevor die Seite öffentlich wird. Auf der Seite steht nur, dass Moni zugestimmt hat.
+- Wie bei der ersten Seite: kein erfundener Text, kein Kanal-Link (Klarname), Text zum Nachlesen und Untertitel „folgen“.
+- Test: `pruefen.js` grün; Filter und Länderseite Laos zeigen beide Einträge.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
