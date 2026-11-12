@@ -144,3 +144,8 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Impressum und Datenschutz sind Entwurf (AP5): Verein gründen, dann Name, Anschrift, Vorstand, Registernummer eintragen; Speicherdauer, USA-Übermittlung, Einwilligungsformular offen; rechtlich prüfen lassen.
 
 - Hilfe-Anlaufstellen für die Länderseiten (öffentliche Stellen, von André).
+
+## 2026-11-12 – Text zum Nachlesen „Bei Moni zuhause“
+- Was: André lieferte die Rohabschrift (automatisch) des ersten Videos. Eingebaut 1:1 als Rohfassung, mit sichtbarem Hinweis „noch nicht korrigiert“.
+- Offen/Risiko: Im Video sind Kinder zu hören (Vornamen Johanna, Nathan). Einwilligung muss von den Sorgeberechtigten kommen, schriftlich und widerrufbar. Außerdem erst korrigieren (Satzzeichen, Sprecher), dann Untertitel.
+- Lernpunkt: Rohe Auto-Texte nie ohne Kennzeichnung veröffentlichen; bei Kindern Sorgeberechtigte fragen, nicht nur die Erwachsene im Bild.
