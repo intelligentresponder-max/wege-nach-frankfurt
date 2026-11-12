@@ -147,7 +147,8 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 
 ## 2026-11-12 – Text zum Nachlesen „Bei Moni zuhause“
 - Was: André lieferte die Rohabschrift (automatisch) des ersten Videos. Eingebaut 1:1 als Rohfassung, mit sichtbarem Hinweis „noch nicht korrigiert“.
-- Offen/Risiko: Im Video sind Kinder zu hören (Vornamen Johanna, Nathan). Einwilligung muss von den Sorgeberechtigten kommen, schriftlich und widerrufbar. Außerdem erst korrigieren (Satzzeichen, Sprecher), dann Untertitel.
+- Offen/Risiko: Im Video sind Kinder zu hören (Kinder-Vornamen genannt). Einwilligung muss von den Sorgeberechtigten kommen, schriftlich und widerrufbar. Außerdem erst korrigieren (Satzzeichen, Sprecher), dann Untertitel.
 - Lernpunkt: Rohe Auto-Texte nie ohne Kennzeichnung veröffentlichen; bei Kindern Sorgeberechtigte fragen, nicht nur die Erwachsene im Bild.
 - 2026-11-12, Video 2: Abschrift mit Sprecherangabe (Moni, Johanna) eingebaut. Beim Einbau leicht geglättet (Satzzeichen, Sprecherzeilen), Wortlaut unverändert; Kind sagt ein Schimpfwort – bewusst nicht entfernt, André/Moni sollen entscheiden. Bei Video 1 fehlt die Zeilenzuordnung noch.
 - 2026-11-12, Video 1: Sprecher komplett nach Andrés Angaben zugeordnet (Mutter/Kind); nur „mag“ und „müssen“ korrigiert.
+- 2026-11-12: Name eines zweiten Kindes im Text durch „[Name]“ ersetzt (Datenschutz). Lernpunkt: Namen Dritter gleich beim Einbau ersetzen; in der Git-Historie bleibt der alte Stand sichtbar.
