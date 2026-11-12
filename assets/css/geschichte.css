@@ -3,3 +3,4 @@
 .sg-liste{max-width:42rem;margin:0 0 1rem;padding-left:1.25rem}
 .sg-liste li{margin-bottom:.6rem}
 .sg-zurueck{display:inline-block;padding:.5rem 0}
+.sg-bild{display:block;width:100%;max-width:22rem;height:auto;margin:0 0 1.5rem;border-radius:.75rem;border:1px solid var(--wf-line)}

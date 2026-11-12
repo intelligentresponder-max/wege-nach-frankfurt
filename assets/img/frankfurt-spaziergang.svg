@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Gezeichneter Herbstweg mit B&#228;umen und Laub">
+<rect width="320" height="180" fill="#fde9d9"/>
+<path d="M0 180 L120 110 L200 110 L320 180 Z" fill="#d9d2c5"/>
+<path d="M160 110 L160 180" stroke="#fbf8f3" stroke-width="6" stroke-dasharray="14 10"/>
+<g><rect x="36" y="60" width="10" height="70" fill="#7c4a21"/><circle cx="41" cy="52" r="34" fill="#c2410c"/></g>
+<g><rect x="266" y="70" width="10" height="60" fill="#7c4a21"/><circle cx="271" cy="62" r="30" fill="#9a3412"/></g>
+<g fill="#c2410c"><ellipse cx="90" cy="150" rx="8" ry="4"/><ellipse cx="230" cy="160" rx="8" ry="4"/><ellipse cx="130" cy="168" rx="8" ry="4"/></g>
+</svg>
