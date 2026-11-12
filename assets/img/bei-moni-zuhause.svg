@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Gezeichnete Winterm&#252;tze und Blumen">
+<rect width="320" height="180" fill="#fde9d9"/>
+<rect y="140" width="320" height="40" fill="#e9dccb"/>
+<g transform="translate(70 40)">
+<path d="M10 70 Q10 10 60 10 Q110 10 110 70 Z" fill="#9a3412"/>
+<rect x="6" y="64" width="108" height="18" rx="9" fill="#fbf8f3"/>
+<circle cx="60" cy="8" r="10" fill="#fbf8f3"/>
+<path d="M6 76 L-6 110 M114 76 L126 110" stroke="#1f2430" stroke-width="4" stroke-linecap="round"/>
+<path d="M30 30 L40 50 L50 30 L60 50 L70 30 L80 50 L90 30" fill="none" stroke="#fbf8f3" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<g transform="translate(210 70)">
+<path d="M30 90 L30 30 M60 90 L60 10 M90 90 L90 40" stroke="#2f6b3a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="30" cy="22" r="14" fill="#c2410c"/><circle cx="60" cy="4" r="14" fill="#9a3412"/><circle cx="90" cy="32" r="14" fill="#c2410c"/>
+<circle cx="30" cy="22" r="5" fill="#fbf8f3"/><circle cx="60" cy="4" r="5" fill="#fbf8f3"/><circle cx="90" cy="32" r="5" fill="#fbf8f3"/>
+</g>
+</svg>
