@@ -115,6 +115,13 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Noch nicht im Repo: der Seitengenerator (Kopf, Menü, Fußzeile stehen in jeder Seite einzeln und werden per Skript mit genauer Trefferzahl geändert) und eine Lizenzdatei für den Code. Letzteres muss André entscheiden.
 - Lernpunkt: Alles, worauf die Qualität beruht, gehört ins Repo, nicht in eine Sitzung.
 
+### 2026-11-12 – Erstes Video ist ein YouTube Short (Hochformat)
+- Die Klick-Einbettung war nur für 16:9 gebaut. Shorts sind 9:16 und würden mit schwarzen Balken laufen.
+- Ergänzt: `data-format="hoch"` am `vd-box` (CSS `video.css`, 9:16, höchstens 22 rem breit).
+- Test (360 px, Testseite, danach gelöscht): Verhältnis 0,563 (= 9:16), kein Seitwärts-Scrollen, vor dem Klick 0 Fremdanfragen, nach dem Klick ein Aufruf von youtube-nocookie.com.
+- Datenschutz-Hinweis: Der YouTube-Kanal ist unter einem Klarnamen angelegt. Der Kanalname darf nicht im Repo oder auf der Seite stehen (Regel 4). Das Abspielfenster von YouTube zeigt den Kanalnamen nach dem Klick selbst an, darauf haben wir keinen Einfluss. Das ist mit der Person zu besprechen.
+- Der Titel des Videos laut YouTube ist nur ein Datum. Die Seite bekommt einen eigenen Titel (Vorname oder Pseudonym und Land) erst nach Bestätigung von André.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
