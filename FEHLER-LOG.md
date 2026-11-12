@@ -149,3 +149,4 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Was: André lieferte die Rohabschrift (automatisch) des ersten Videos. Eingebaut 1:1 als Rohfassung, mit sichtbarem Hinweis „noch nicht korrigiert“.
 - Offen/Risiko: Im Video sind Kinder zu hören (Vornamen Johanna, Nathan). Einwilligung muss von den Sorgeberechtigten kommen, schriftlich und widerrufbar. Außerdem erst korrigieren (Satzzeichen, Sprecher), dann Untertitel.
 - Lernpunkt: Rohe Auto-Texte nie ohne Kennzeichnung veröffentlichen; bei Kindern Sorgeberechtigte fragen, nicht nur die Erwachsene im Bild.
+- 2026-11-12, Video 2: Abschrift mit Sprecherangabe (Moni, Johanna) eingebaut. Beim Einbau leicht geglättet (Satzzeichen, Sprecherzeilen), Wortlaut unverändert; Kind sagt ein Schimpfwort – bewusst nicht entfernt, André/Moni sollen entscheiden. Bei Video 1 fehlt die Zeilenzuordnung noch.
