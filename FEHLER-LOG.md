@@ -122,6 +122,15 @@ Vorlage: Datum – Was passiert – Ursache – Behebung – Lernpunkt.
 - Datenschutz-Hinweis: Der YouTube-Kanal ist unter einem Klarnamen angelegt. Der Kanalname darf nicht im Repo oder auf der Seite stehen (Regel 4). Das Abspielfenster von YouTube zeigt den Kanalnamen nach dem Klick selbst an, darauf haben wir keinen Einfluss. Das ist mit der Person zu besprechen.
 - Der Titel des Videos laut YouTube ist nur ein Datum. Die Seite bekommt einen eigenen Titel (Vorname oder Pseudonym und Land) erst nach Bestätigung von André.
 
+### 2026-11-12 – Erste Story-Seite „Bei Moni zuhause“ (Laos)
+- Quelle: YouTube Short (Hochformat), Einwilligung von André bestätigt (nur mündlich im Chat, das Dokument liegt nicht im Repo). Titel von André: „Bei Moni zuhause“.
+- Bewusst minimal gebaut: Titel, Land, Kurz gesagt, Video-Box mit Klick-Einbettung, Hinweis auf Quartiersmanagement Preungesheim, Mitmach-Links. **Keine erfundenen Abschnitte.** Auf der Seite steht ehrlich, dass Text zum Nachlesen und Untertitel noch folgen.
+- Abweichung von der Vorgabe: Kurzfassung in der Landessprache, vier Abschnitte (Herkunft, Der Weg, Hürden, Heute) und Kanal-Link fehlen, weil Inhalt fehlt. Der Kanal ist unter einem Klarnamen angelegt und wird deshalb nicht verlinkt.
+- Barrierefreiheit: Video ohne Untertitel und ohne Transkript liegt unter dem Standard (WCAG 1.2). Muss nachgeholt werden, sobald Transkript da ist.
+- Einträge: Geschichten-Übersicht (Filter Laos getestet: Eintrag sichtbar bei Alle und Laos, Meldung „keine Geschichte“ bei Eritrea) und Länderseite Laos. Die Datenschutzerklärung nennt jetzt das eingebundene Video.
+- Test: `pruefen.js` grün (13 Seiten, 0 Probleme, 0 Fremdanfragen vor dem Klick). Nach dem Klick ein Aufruf von youtube-nocookie.com, Verhältnis 9:16, kein Überlauf.
+- Nicht geprüft: Abspielen im echten Handybrowser, TalkBack.
+
 ## Offene Punkte
 - Pages in GitHub aktivieren (André, Handy-Browser).
 - YouTube-Kanal + Link, erste Geschichte mit Einwilligung, WhatsApp-Nummer, Muttersprachler-Prüfung.
